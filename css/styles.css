@@ -1,0 +1,93 @@
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --VeryDarkBlueMain: hsl(217, 54%, 11%);
+  --VeryDarkBlueCardBg: hsl(216, 50%, 16%);
+  --VeryDarkBlueLine: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+  background-color:  hsl(217, 54%, 11%);
+}
+
+body {
+  font-family: Outfit;
+  font-size: 20px;
+  padding: 470px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+background-color:  hsl(217, 54%, 11%);
+}
+
+.container{
+  border: 0px solid black;
+  padding: 19px;
+  border-radius: 9px;
+  height: 580px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.title p,span{
+  color: hsl(215, 32%, 27%);
+  background-color:  hsl(216, 50%, 16%);;
+}
+
+
+
+h1{
+  background-color:  hsl(216, 50%, 16%);
+  color: white;
+  font-size: 30px;
+}
+
+p{
+  background-color: hsl(216, 50%, 16%);
+}
+
+.display{
+  display: flex;
+  justify-content: space-between; 
+  background-color: hsl(216, 50%, 16%);    
+}
+
+.img{
+  border: 0px solid black;
+  border-radius: 8px;
+}
+
+
+.edit{
+  color:  hsl(215, 32%, 27%);
+}
+
+.text{
+  color: hsl(178, 100%, 50%);
+   background-color: hsl(216, 50%, 16%);
+   display: flex;
+   align-items: center;
+}
+
+.text2{
+  color: hsl(215, 32%, 27%);
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  align-items: center;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  color: white; 
+  justify-content: space;
+}
+
+img{
+  background:  hsl(216, 50%, 16%);
+}
+
