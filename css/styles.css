@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 :root {
   --SoftBlue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
@@ -7,87 +8,79 @@
   --White: hsl(0, 0%, 100%);
 }
 
-*{
-  background-color:  hsl(217, 54%, 11%);
-}
-
 body {
+  background-color: var(--VeryDarkBlueMain);
   font-family: Outfit;
-  font-size: 20px;
-  padding: 470px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-background-color:  hsl(217, 54%, 11%);
+  padding: 24px 32px;
+  height: 100vh;
+  display: grid;
+  font-weight: 300;
+  place-items: center;
 }
-
-.container{
-  border: 0px solid black;
-  padding: 19px;
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--SoftBlue);
+}
+.container {
+  width: 100%;
+  max-width: 375px;
   border-radius: 9px;
-  height: 580px;
-  background-color: hsl(216, 50%, 16%);
+  padding: 24px;
+  background-color: var(--VeryDarkBlueCardBg);
 }
 
-.title p,span{
-  color: hsl(215, 32%, 27%);
-  background-color:  hsl(216, 50%, 16%);;
+.card-image {
+  border-radius: 12px;
+}
+.card-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
-
-
-h1{
-  background-color:  hsl(216, 50%, 16%);
+h2 {
   color: white;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 28px;
 }
 
-p{
-  background-color: hsl(216, 50%, 16%);
+p {
+  font-size: 22px;
+  color: var(--SoftBlue);
 }
 
-.display{
+.card-info {
   display: flex;
-  justify-content: space-between; 
-  background-color: hsl(216, 50%, 16%);    
+  justify-content: space-between;
+  border-bottom: 2px solid var(--VeryDarkBlueLine);
 }
 
-.img{
-  border: 0px solid black;
-  border-radius: 8px;
-}
-
-
-.edit{
-  color:  hsl(215, 32%, 27%);
-}
-
-.text{
-  color: hsl(178, 100%, 50%);
-   background-color: hsl(216, 50%, 16%);
-   display: flex;
-   align-items: center;
-}
-
-.text2{
-  color: hsl(215, 32%, 27%);
-  background-color: hsl(216, 50%, 16%);
+.card-info div {
   display: flex;
+  gap: 8px;
   align-items: center;
 }
 
-.info{
+.card-info img {
+  width: 24px;
+  height: 24px;
+}
+
+.card-info div:first-child p {
+  color: var(--cyan);
+  font-weight: 400;
+}
+.card-footer {
   display: flex;
   align-items: center;
+  gap: 12px;
+  margin-top: 12px;
 }
 
-.end{
-  display: flex;
-  justify-content: center;
-  color: white; 
-  justify-content: space;
+.card-footer img {
+  width: 56px;
+  height: 56px;
 }
-
-img{
-  background:  hsl(216, 50%, 16%);
-}
-
